@@ -13,7 +13,7 @@ import {
 } from "react-icons/bs";
 import { GiGlassShot, GiRollingEnergy, GiHealthNormal } from "react-icons/gi";
 import useToggle from "../hooks/useToggle";
-import { MdOutlineScience } from "react-icons/md";
+import { MdOutlineGraphicEq, MdOutlineScience } from "react-icons/md";
 import { CgCompressRight } from "react-icons/cg";
 
 import {
@@ -124,6 +124,12 @@ export default function Navbar() {
 							<MdOutlineScience className='icon' />
 							Scientific
 						</Link>
+					</li>
+					<li>
+						<a href='https://graphing-calculator-akansha.vercel.app/'>
+							<MdOutlineGraphicEq className='icon' />
+							Graphing
+						</a>
 					</li>
 					<li>
 						<Link to='/programmer'>
